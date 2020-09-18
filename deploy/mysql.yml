@@ -1,0 +1,7 @@
+apiVersion: muge.net/v1
+kind: Database
+metadata:
+  name: mysql-db
+spec:
+  type: mysql
+  tag: latest

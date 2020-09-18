@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  operator:
+    build:
+      context: .
+    container_name: ikmuge/operator
+    image: ikmuge/operator:latest
